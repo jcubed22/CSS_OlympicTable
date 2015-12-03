@@ -1,0 +1,104 @@
+html {
+  font-family: 'Arial';
+}
+#page-header-wrapper {
+  background-image: url('../images/medals-bg.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+th div{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.medal {
+  position: relative;
+  top: 33%;
+}
+#gold {
+  color: #e3b330;
+  border: .15em solid #e3b330;
+}
+#silver {
+  color: #707070;
+  border: .15em solid #707070;
+}
+#bronze {
+  color: #805f33;
+  border: .15em solid #805f33;
+}
+th:first-child, td:first-child {
+  width: 35em;
+}
+th:first-child {
+  text-align: left;
+}
+td, th {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: .1em solid #f4f4f4;
+}
+td:nth-child(n+2) {
+  text-align: center;
+}
+th {
+  border: none;
+}
+td:last-child {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+.country-name {
+  margin-left: 10px;
+  vertical-align: 3px;
+}
+.flag-icon {
+  background: url('../images/flags.png') no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 27px;
+  text-indent: -9999px;
+  text-align: left;
+  overflow: hidden;
+}
+.flag-icon.flag-usa {
+  background-position: -27px -216px;
+}
+.flag-icon.flag-chn {
+  background-position: -27px -36px;
+}
+.flag-icon.flag-rus {
+  background-position: -162px -162px;
+}
+.flag-icon.flag-gbr {
+  background-position: -0px -72px;
+}
+.flag-icon.flag-deu {
+  background-position: -81px -72px;
+}
+.flag-icon.flag-jpn {
+  background-position: -27px -108px;
+}
+.flag-icon.flag-aus {
+  background-position: -162px -0px;
+}
+.flag-icon.flag-fra {
+  background-position: -216px -54px;
+}
+.flag-icon.flag-kor {
+  background-position: -135px -108px;
+}
+.flag-icon.flag-ita {
+  background-position: -270px -90px;
+}
