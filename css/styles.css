@@ -26,13 +26,28 @@ th div{
   color: #e3b330;
   border: .15em solid #e3b330;
 }
+#gold:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #e3b330;
+}
 #silver {
   color: #707070;
   border: .15em solid #707070;
 }
+#silver:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #707070;
+}
 #bronze {
   color: #805f33;
   border: .15em solid #805f33;
+}
+#bronze:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #805f33;
 }
 th:first-child, td:first-child {
   width: 35em;
